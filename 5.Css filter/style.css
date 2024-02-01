@@ -1,0 +1,12 @@
+img {
+    margin: 50px;
+    /* filter: blur(4px); */
+    /* filter: brightness(50%); */
+    /* filter: contrast(90%); */
+    /* filter: grayscale(50%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: invert(100%) */
+    /* filter: opacity(50%); */
+    /* filter: saturate(10%) */
+    filter: brightness(10%) contrast(90%);
+}

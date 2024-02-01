@@ -1,0 +1,7 @@
+#text{
+    height:400px ;
+    width: 800px;
+    border: 4px solid black;
+    overflow:auto;
+    /* resize:both: overflow must be auto,scroll,hidden and block element */
+}

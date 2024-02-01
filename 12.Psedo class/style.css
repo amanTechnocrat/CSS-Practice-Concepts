@@ -1,0 +1,16 @@
+/* li:first-child{
+    color: darkorange;
+} */
+/* li:last-child{
+    color: rgb(63, 29, 218);
+} */
+/* li:nth-child(odd){
+    color: rgb(63, 29, 218);
+} */
+li:nth-child(2n+1){
+    color: rgb(63, 29, 218);
+}
+input:focus{
+    color: chartreuse;
+    border: 5px solid gold;
+}

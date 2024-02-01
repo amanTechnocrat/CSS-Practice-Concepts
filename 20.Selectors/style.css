@@ -1,0 +1,61 @@
+/* li{
+    color: rgb(81, 255, 0);
+} */
+
+/* .classEX{
+    color: blue;
+} */
+
+/* #div{
+    background-color: paleturquoise;
+} */
+
+/* Psedo class */
+/* a:hover{
+    color: red;
+} */
+
+/* Psedo Element */
+/* p::first-line{
+    color: gold;
+} */
+
+/* Attribute selector
+a[href="google"]{
+    color: yellow;
+} */
+
+/* universal Selector */
+/* *{
+    border: 1px solid black;
+} */
+
+/* combinator selector - Adjecent Selector */
+/* it will style the any selcted child without level limitation */
+/* div li{
+    text-decoration: underline;
+} */
+
+/* combinator selector - Direct Selector */
+/* it will style the selcted direct child without level limitation */
+/* div>h1{
+    text-decoration: underline;
+} */
+
+/* combinator selector - just-sibling Selector */
+/* it will style the  selcted justsibling with level limitation */
+/* h1 + p{
+    text-decoration: underline;
+} */
+
+/* combinator selector - normal Selector */
+/* it will style the any selcted sibling without level limitation */
+/* h1 ~ p{
+    text-decoration: underline;
+} */
+
+/* Add selector */
+/* it will style the any selcted element without level limitation */
+/* h1, p {
+    color: blue;
+} */

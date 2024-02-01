@@ -1,0 +1,48 @@
+.grid-parent {
+    background-color: crimson;
+    padding: 20px;
+    display: grid;
+    /* grid-template-columns: 200px 200px 300px;
+    grid-template-rows: 100px 100px 100px;
+    justify-content:space-evenly;
+    gap: 50px 10px;
+    align-content: center; */
+    gap: 20px;
+    grid-template-areas: 
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer ";
+}
+
+.grid-child {
+    background-color: chartreuse;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* #grid-1{
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    grid-column:1/ span 2;
+    grid-row: 1/ span 2;
+} */
+
+/* #grid-5{
+    grid-area: 2/2/6/5;
+} */
+#grid-1{
+    grid-area: header;
+}
+#grid-2{
+    grid-area: menu;
+}
+#grid-3{
+    grid-area: main;
+}
+#grid-4{
+    grid-area: right;
+}
+#grid-5{
+    grid-area: footer;
+}

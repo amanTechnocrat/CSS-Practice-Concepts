@@ -1,0 +1,11 @@
+#bgimg{
+    background-image: url(images/3.jpeg), url(images/4.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-attachment:fixed;
+    background-position: right bottom,left bottom;
+    
+}
+/* body{
+    background-color: black
+}; */

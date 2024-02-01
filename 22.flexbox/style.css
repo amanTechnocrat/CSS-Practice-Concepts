@@ -1,0 +1,16 @@
+#parent {
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+    justify-content:center ;
+    height: 70vh;
+    align-items: center;
+}
+
+.child {
+    background-color: blue;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+}

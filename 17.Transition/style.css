@@ -1,0 +1,14 @@
+#div1{
+    background-color: blue;
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function:cubic-bezier(1, 0, 0, 1);
+    /* transition-delay: 500ms; */
+}
+#div1:hover{
+    width: 200px;
+    background-color:gold;
+}

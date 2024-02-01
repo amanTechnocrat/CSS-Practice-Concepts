@@ -1,0 +1,10 @@
+@font-face {
+    font-family: abc;
+    src: url('wer/qq.ttf');
+}
+
+#text {
+    font-family: abc,'Rubik Microbe', cursive;
+    font-variant: small-caps;
+    font-size: large;
+}

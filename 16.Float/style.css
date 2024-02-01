@@ -1,0 +1,44 @@
+img{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+#img1{
+    float: left;
+}
+#img3{
+    float: left;
+    clear: left;
+}
+#img2{
+    float: right;
+}
+p{
+    overflow: auto;
+}
+ul{
+    background-color: blue;
+    list-style-type: none;
+    overflow: auto;
+}
+li{
+    padding: 10px 15px;
+    color: black;
+    float: left;
+}
+#content{
+    width: 70%;
+    background-color: blue;
+    height: 200px;
+    float: left;
+}
+#sidebar{
+    background-color: rgb(23, 175, 43);
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+#footer{
+    background-color: crimson;
+    clear: both;
+}

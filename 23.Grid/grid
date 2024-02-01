@@ -1,0 +1,17 @@
+grid-parent
+grid-template-columns --- for column no
+grid-template-rows -- for row height
+gap -- for giving up the gap
+justify-content --- for setting up the position
+align-content-- for fixing the height of children and position verticaly
+
+grid-child
+--for merging the column
+grid-column-start: 1; // 
+grid-column-end: 3;
+grid-column:1/3 or 1/ span 2 //short hand
+--for merging the row
+grid-row:1/3 or 1/ span 2 //short hand
+--for inceasing grid area
+grid-area: 2/2/6/5; or you can also define name as attribute
+ 	   startrow/startcloum/endrow/endcolumn

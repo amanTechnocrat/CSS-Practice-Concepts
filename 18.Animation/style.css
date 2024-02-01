@@ -1,0 +1,29 @@
+@keyframes animation1 {
+    /* from {background-color: rgb(15, 9, 0);}
+    to {background-color: rgb(12, 219, 81);} */
+    10% {background-color: blue;}
+    20% {background-color: darkgray; border-radius: 50%;}
+    90% {background-color: lawngreen; width: 300px;}
+}
+
+#div{
+    background-color: rgb(179, 179, 219);
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-iteration-count: infinite;
+}
+#div2{
+    background-color: rgb(179, 179, 219);
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-delay: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}

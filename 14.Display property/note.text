@@ -1,0 +1,14 @@
+---block
+new line
+full width
+can get height and width
+
+--inline
+no new start
+no full width
+can't get height and width
+
+--inline-block
+not new start
+no full width
+can get height and width

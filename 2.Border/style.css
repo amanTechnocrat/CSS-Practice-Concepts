@@ -1,0 +1,6 @@
+#border{
+    border-style: solid dotted double inset;
+    border-color: rgb(92, 184, 7) rgb(0, 0, 0);
+    border-width: 9px 3px 1px 4px;
+    border-radius: 50px 2px 10px 14px;
+}

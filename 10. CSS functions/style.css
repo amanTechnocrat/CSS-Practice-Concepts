@@ -1,0 +1,11 @@
+:root{
+    --pcolor:blue;
+    --ImageWidth:200px;
+}
+
+
+#fun{
+    background-color: var(--pcolor);
+    height: 300px;
+    width: calc(100% - var(--ImageWidth));
+}
